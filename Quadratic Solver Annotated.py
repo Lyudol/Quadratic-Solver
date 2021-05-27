@@ -39,7 +39,7 @@ def solver():
 
 def restarter(): #This function just asks the user if they want to solve a new equation  
     print("--------------------------------------------------")
-    retry = input("Would you like to solve another equation? (Y/N) ")
+    retry = input("Would you like to solve another equation? (Y/N): ")
     if retry == "Y" or retry == "y":
         print("--------------------------------------------------")
         userinputs()
